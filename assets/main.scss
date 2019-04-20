@@ -59,3 +59,9 @@ ul.cookbook-page--recipe-list {
     vertical-align: middle;
     list-style-type: disc;
 }
+
+ul.cookbook-page--recipe-list li {
+    @media (min-width: 768px) {
+        font-size: 0.9rem;
+    }
+}
