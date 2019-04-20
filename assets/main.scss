@@ -1,0 +1,61 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+figure {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+
+    @media (min-width: 768px) {
+        text-align: left;
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        max-width: 50%;
+    }
+}
+
+figure > img {
+    width: 100%;
+    display: block;
+}
+
+figure > figcaption {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+img.cookbook-page {
+    display: block;
+    margin: 0 auto;
+}
+
+ul.cookbook-pages {
+    margin: 0;
+}
+
+ul.cookbook-pages > li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        width: 360px;
+    }
+}
+
+img.cookbook-page__thumbnail {
+    display: inline-block;
+    width: 100px;
+}
+
+ul.cookbook-page--recipe-list {
+    display: inline-block;
+    vertical-align: middle;
+    list-style-type: disc;
+}
