@@ -2,7 +2,6 @@
 name: Peanut Butter Cookies
 layout: recipe
 page: 7
-index: 3
 ---
 
 <pre>

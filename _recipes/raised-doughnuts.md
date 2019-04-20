@@ -2,7 +2,6 @@
 name: Raised Doughnuts
 layout: recipe
 page: 4
-index: 1
 ---
 
 <pre>

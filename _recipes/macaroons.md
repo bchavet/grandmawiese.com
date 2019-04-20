@@ -2,7 +2,6 @@
 name: Macaroons
 layout: recipe
 page: 7
-index: 1
 ---
 
 <pre>

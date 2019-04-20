@@ -2,7 +2,6 @@
 name: Old Fashioned German Bread
 layout: recipe
 page: 3
-index: 4
 ---
 
 <pre>

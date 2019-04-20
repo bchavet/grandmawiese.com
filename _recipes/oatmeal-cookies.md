@@ -2,7 +2,6 @@
 name: Oatmeal Cookies
 layout: recipe
 page: 7
-index: 6
 ---
 
 <pre>

@@ -2,7 +2,6 @@
 name: Sweet Dough for Rolls
 layout: recipe
 page: 5
-index: 1
 ---
 
 <pre>

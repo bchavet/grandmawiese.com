@@ -2,7 +2,6 @@
 name: Bran Muffins
 layout: recipe
 page: 4
-index: 2
 ---
 
 <pre>

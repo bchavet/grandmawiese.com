@@ -2,7 +2,6 @@
 name: Sunday Refrigerator Rolls
 layout: recipe
 page: 3
-index: 1
 ---
 
 <pre>

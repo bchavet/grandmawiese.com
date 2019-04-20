@@ -2,7 +2,6 @@
 name: Banana Bread
 layout: recipe
 page: 6
-index: 1
 ---
 
 <pre>

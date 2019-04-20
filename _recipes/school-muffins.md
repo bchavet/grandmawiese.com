@@ -2,7 +2,6 @@
 name: School Muffins
 layout: recipe
 page: 2
-index: 3
 ---
 
 <pre>

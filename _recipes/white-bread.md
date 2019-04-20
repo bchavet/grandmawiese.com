@@ -2,7 +2,6 @@
 name: White Bread
 layout: recipe
 page: 2
-index: 1
 ---
 
 <pre>

@@ -2,7 +2,6 @@
 name: Zucchini Bread
 layout: recipe
 page: 6
-index: 2
 ---
 
 <pre>

@@ -2,7 +2,6 @@
 name: Rye Bread
 layout: recipe
 page: 2
-index: 2
 ---
 
 <pre>

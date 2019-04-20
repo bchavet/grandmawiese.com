@@ -27,6 +27,9 @@ collections:
     recipes:
         output: true
         permalink: /cookbook/:name
+    cookbook-pages:
+        output: true
+        permalink: /cookbook/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

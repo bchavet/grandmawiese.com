@@ -2,7 +2,6 @@
 name: Ginger Snaps
 layout: recipe
 page: 7
-index: 5
 ---
 
 <pre>

@@ -2,7 +2,6 @@
 name: 40% Bran Flake Cookies
 layout: recipe
 page: 7
-index: 4
 ---
 
 <pre>

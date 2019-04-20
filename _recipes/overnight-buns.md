@@ -2,7 +2,6 @@
 name: Overnight Buns
 layout: recipe
 page: 4
-index: 3
 ---
 
 <pre>

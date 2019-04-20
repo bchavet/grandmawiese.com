@@ -2,7 +2,6 @@
 name: Angel Food Cake
 layout: recipe
 page: 6
-index: 3
 ---
 
 <pre>

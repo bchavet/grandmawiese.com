@@ -4,20 +4,14 @@ title: Cookbook
 permalink: /cookbook/
 ---
 
-{% assign pages = site.recipes | group_by: "page" | sort: "name" | uniq %}
+{% assign pages = site.cookbook-pages | group_by: "name"  %}
 
 <ul class="cookbook-pages">
-<!--
-    <li>
-        <img src="/assets/cookbook-page-1.jpg" class="cookbook-page__thumbnail" />
-    </li>
--->
-
     {% for page in pages %}
         <li>
-            <img src="/assets/cookbook-page-{{ forloop.index | plus:1 }}.jpg" class="cookbook-page__thumbnail" />
+            <a href="/cookbook/{{ page.name }}"><img src="/assets/cookbook-page-{{ page.name }}.jpg" class="cookbook-page__thumbnail" /></a>
             <ul class="cookbook-page--recipe-list">
-                {% assign recipes = page.items | sort: "index" %}
+                {% assign recipes = site.recipes | where: "page", page.name | sort: "name" %}
                 {% for recipe in recipes %}
                     <li>
                         <a href="{{ recipe.url | relative_url }}">{{ recipe.name | escape }}</a>

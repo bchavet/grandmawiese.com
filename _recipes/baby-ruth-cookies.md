@@ -2,7 +2,6 @@
 name: Baby Ruth Cookies
 layout: recipe
 page: 7
-index: 2
 ---
 
 <pre>

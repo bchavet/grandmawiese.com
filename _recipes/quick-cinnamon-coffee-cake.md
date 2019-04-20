@@ -2,7 +2,6 @@
 name: Quick Cinnamon Coffee Cake
 layout: recipe
 page: 5
-index: 2
 ---
 
 <pre>

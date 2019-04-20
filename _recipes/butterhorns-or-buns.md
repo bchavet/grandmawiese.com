@@ -2,7 +2,6 @@
 name: Butterhorns or Buns
 layout: recipe
 page: 3
-index: 3
 ---
 
 <pre>
