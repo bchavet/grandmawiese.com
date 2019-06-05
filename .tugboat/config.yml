@@ -1,0 +1,16 @@
+services:
+  apache:
+    image: tugboatqa/httpd
+    commands:
+      init: |
+        apt-get update
+        apt-get install ruby ruby-dev
+        gem install jekyll bundler
+        cp "${TUGBOAT_ROOT}"/.tugboat/httpd.conf /usr/local/apache2/conf/httpd.conf
+        apt-get clean
+        rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+      build: |
+        bundle update
+        bundle exec jekyll build --drafts --future
+        ln -snf "${TUGBOAT_ROOT}"/_site "${DOCROOT}"
+
