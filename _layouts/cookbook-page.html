@@ -4,5 +4,16 @@ layout: default
 
 <!-- cookbook-page post-content -->
 <div class="post-content">
+    <h1>Page {{ page.name }}</h1>
+    <div class="cookbook-page__navigation">
+        <ul>
+            {% if page.previous.url %}
+                <li class="cookbook-page__navigation--prev"><a href="{{page.previous.url}}">&lt;&lt; Prev</a></li>
+            {% endif %}
+            {% if page.next.url %}
+                <li class="cookbook-page__navigation--next"><a href="{{page.next.url}}">Next &gt;&gt;</a></li>
+            {% endif %}
+        </ul>
+    </div>
     <img src="/assets/cookbook-page-{{ page.name }}.jpg" class="cookbook-page" />
 </div>
