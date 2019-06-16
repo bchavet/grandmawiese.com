@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.wrapper {
+    max-width: 994px;
+}
+
 figure {
     width: 100%;
     text-align: center;
@@ -40,12 +44,13 @@ ul.cookbook-pages {
 
 ul.cookbook-pages > li {
     list-style: none;
-    display: inline-block;
+    display: block;
+    float:left;
     margin-bottom: 30px;
     width: 100%;
 
     @media (min-width: 768px) {
-        width: 360px;
+        width: 50%;
     }
 }
 
