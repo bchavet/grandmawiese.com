@@ -1,14 +1,11 @@
 ---
-title: Search
+layout: page
 permalink: /search/
 ---
 
-<form action="/search/" method="get">
-  <input type="text" id="search-box" name="query" placeholder="Looking for a specific page or article? Search here..">
-  <input type="submit" value="search">
-</form>
+<h1 class="post-title">Search Results</h1>
 
-<ul id="search-results"></ul>
+<div id="search-results"></div>
 
 <script>
   window.store = {
